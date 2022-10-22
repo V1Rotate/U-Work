@@ -1,0 +1,111 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $black;
+  border-top: 1px solid $gray-line;
+  padding-top: 30px;
+  margin-top: 0;
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 70%;
+    text-align: left;
+    @media (max-width: 1020px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  &__links h4 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 1rem;
+    color: $orange;
+  }
+
+  &__links p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #3969c6;
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    border-top: 1px solid $gray-line;
+
+    .icon {
+      margin-right: 25px;
+      margin-top: 25px;
+      font-size: 22px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    .facebook {
+      color: #4267b2;
+    }
+    .instagram {
+      color: #bc2a8d;
+    }
+    .pinterest {
+      color: #e60023;
+    }
+    .twitter {
+      color: #00acee;
+    }
+    .youtube {
+      color: #ff0000;
+    }
+  }
+
+  &__copyright {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  &__copyright p {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+  }
+
+  @media screen and (max-width: 990px) {
+    .uWork__footer-heading h1 {
+      font-size: 44px;
+      line-height: 50px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .uWork__footer-heading h1 {
+      font-size: 34px;
+      line-height: 42px;
+    }
+    .uWork__footer-links div {
+      margin: 1rem 0;
+    }
+    .uWork__footer-btn p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+.link {
+  @media (max-width: 1020px) {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+.contactUs-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1400px;
+  margin-bottom: 50px;
+  background-color: rgb(234, 234, 234);
+  padding: 25px;
+  @media (max-width: 1020px) {
+    flex-direction: column;
+  }
+
+  &__contactUs {
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  &__saveTime {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #3969c6;
+    cursor: pointer;
+  }
+
+  &__phoneNumber {
+    font-size: 18px;
+    color: $red;
+    @media (max-width: 1020px) {
+      font-size: 16px;
+    }
+
+    span {
+      font-size: 10px;
+      vertical-align: super;
+      color: $red;
+    }
+  }
+}
+
+.contactUsElement {
+  @media (max-width: 1020px) {
+    margin-bottom: 15px;
+  }
+}

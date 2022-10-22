@@ -1,0 +1,56 @@
+@import '../variables';
+
+.catalogueRequst {
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+
+  h3,
+  h4 {
+    margin: 5px;
+  }
+
+  h3 {
+    font-size: 26px;
+    letter-spacing: 1.2px;
+    @media (max-width: 1020px) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .inputName,
+  .inputPhone {
+    height: 40px;
+    width: 280px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding-left: 8px;
+    @media (max-width: 1020px) {
+      height: 30px;
+    }
+  }
+
+  button {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+    @media (max-width: 1020px) {
+      margin-top: 15px;
+      height: 38px;
+      font-size: 14px;
+    }
+  }
+}

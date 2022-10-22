@@ -1,0 +1,59 @@
+@import '../variables';
+
+.applicationItem-block-wrapper {
+  width: 410px;
+  text-align: center;
+  margin-bottom: 65px;
+  transition: all 0.2s ease-in-out;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  .itemImg {
+    width: 360px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .applicationItem-title {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+
+  .applicationItem-subTitle {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 365px;
+    font-weight: 400;
+  }
+}
+
+.applicationSection-title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+  letter-spacing: 1.2px;
+  @media (max-width: 1020px) {
+    font-size: 22px;
+  }
+}
+
+.applicationItems-style {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 350px);
+
+  @media (max-width: 1060px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 730px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

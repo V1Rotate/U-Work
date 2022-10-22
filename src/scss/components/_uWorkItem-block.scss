@@ -1,0 +1,52 @@
+@import '../variables';
+
+.uWorkItem-block {
+  width: 280px;
+  text-align: center;
+
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .itemImg {
+    width: 280px;
+  }
+
+  .uWorkItem-title {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1%;
+    margin-bottom: 20px;
+  }
+
+  .uWorkItem-subTitle {
+    font-size: 16px;
+  }
+
+  .wBlockBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+    .uWorkItemBlock-addBtn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .itemPrice {
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 24px;
+      letter-spacing: 0.015em;
+    }
+  }
+}
