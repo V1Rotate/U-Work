@@ -29,6 +29,9 @@
   &__logo-slogan {
     margin-left: 8px;
     margin-top: 15px;
+    @media (max-width: 550px) {
+      width: 300px;
+    }
   }
 }
 
