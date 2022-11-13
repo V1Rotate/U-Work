@@ -1,4 +1,6 @@
-Project DEMO: https://u-work.netlify.app/
+--- TECHNOLOGIES USED ---
+
+TypeScript, React, Redux, SCSS, ‘MockAPI’ for Backend, Google Maps attached (showing U-Work locations on a map).
 
 --- WHERE THE IDEA OF THE PROJECT CAME FROM ---
 
@@ -19,13 +21,3 @@ Application is an online menu of ordering U-Work Equipment.
 The user can click on each Equipment unit and check its specifications. Also, users can read more about the Applications or Industries where this type of equipment can
 be used, to learn and understand more.
 
---- TECHNOLOGIES USED ---
-
-TypeScript, React, Redux, SCSS, ‘MockAPI’ for Backend, Google Maps attached (showing U-Work locations on a map).
-
-
--------------
-
-Thank you for your time reviewing my code. Please let me know if you have any questions.
-
-Respectfully, Oleg.
