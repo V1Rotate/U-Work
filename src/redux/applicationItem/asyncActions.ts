@@ -8,7 +8,7 @@ export const fetchApplicationItems = createAsyncThunk<ApplicationItem[]>(
   'applicationItem/fetchApplicationItemsStatus',
   async () => {
     const { data } = await axios.get<ApplicationItem[]>(
-      `https://63294cb14c626ff832be5321.mockapi.io/applicationItems`,
+      `SECRET_API_URL`,
       {
         params: pickBy(
           {
