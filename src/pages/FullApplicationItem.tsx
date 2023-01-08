@@ -17,7 +17,7 @@ const FullApplicationItem: React.FC = () => {
     async function fetchApplicationItem() {
       try {
         const { data } = await axios.get(
-          'https://63294cb14c626ff832be5321.mockapi.io/applicationItems/' + id
+          'SECRET_API_URL' + id
         );
         setApplicationItem(data);
       } catch (error) {
