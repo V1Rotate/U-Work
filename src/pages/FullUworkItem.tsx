@@ -17,7 +17,7 @@ const FullUworkItem: React.FC = () => {
     async function fetchUworkItem() {
       try {
         const { data } = await axios.get(
-          'https://63294cb14c626ff832be5321.mockapi.io/items/' + id
+          'SECRET_API_URL' + id
         );
         setUworkItem(data);
       } catch (error) {
