@@ -8,7 +8,7 @@ export const fetchUworkItems = createAsyncThunk<UworkItem[]>(
   'uWorkItem/fetchUworkItemsStatus',
   async () => {
     const { data } = await axios.get<UworkItem[]>(
-      `https://63294cb14c626ff832be5321.mockapi.io/items`,
+      `SECRET_API_URL`,
       {
         params: pickBy(
           {
